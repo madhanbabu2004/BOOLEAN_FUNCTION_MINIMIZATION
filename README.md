@@ -61,9 +61,10 @@ endmodule
 
 ## Logic Symbol and Truth table
 ![output](./1.png)
+
+
+
 ![output](./2.png)
-
-
 
 ## RTL realization Output:
 ![output](./3.png)

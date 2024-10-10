@@ -59,19 +59,19 @@ endmodule
 ```
 
 
-**Logic Symbol and Truth table**
+## Logic Symbol and Truth table
 ![output](./1.png)
 ![output](./2.png)
 
 
 
-**RTL realization Output:**
+## RTL realization Output:
 ![output](./3.png)
 ![output](./4.png)
 
 
 
-**RTL**
+## RTL
 ![output](./5.png)
 
 

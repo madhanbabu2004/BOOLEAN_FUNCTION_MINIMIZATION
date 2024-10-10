@@ -1,6 +1,6 @@
 # BOOLEAN_FUNCTION_MINIMIZATION
 
-**AIM:**
+## AIM:
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
@@ -31,20 +31,51 @@ Hardware – PCs, Cyclone II , USB flasher
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:**
+## Program:
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by: RegisterNumber:
+212222230075 Name: MADHAN BABU P
+```
+
+module Boolean_min(A,B,C,D,W,X,Y,Z,F1,F2);
+input A,B,C,D,W,X,Y,Z;
+wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
+output F1,F2;
+assign x1=(~A)&(~B)&(~C)&(~D);
+assign x2=(A)&(~C)&(~D);
+assign x3=(~B)&(C)&(~D);
+assign x4=(~A)&(B)&(C)&(D);
+assign x5=(B)&(~C)&(D);
+assign x6=(X)&(~Y)&(Z);
+assign x7=(~X)&(~Y)&(Z);
+assign x8=(~W)&(X)&(Y);
+assign x9=(W)&(~X)&(Y);
+assign x10=(W)&(X)&(Y);
+assign F1=x1|x2|x3|x4|x5;
+assign F2=x6|x7|x8|x9|x10;
+endmodule
+```
 
 
-**RTL realization**
+**Logic Symbol and Truth table**
+![output](./1.png)
+![output](./2.png)
 
-**Output:**
+
+
+**RTL realization Output:**
+![output](./3.png)
+![output](./4.png)
+
+
 
 **RTL**
+![output](./5.png)
 
-**Timing Diagram**
+
+
 
 **Result:**
 
